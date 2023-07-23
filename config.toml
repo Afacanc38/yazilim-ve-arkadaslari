@@ -1,7 +1,8 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://afacanc38.github.io/yazilim-ve-arkadaslari/'
 languageCode = 'tr-tr'
 title = 'Yazılım ve Arkadaşları'
 theme = 'paper'
+rssLimit = '15'
 
 [params]
   rss = true
