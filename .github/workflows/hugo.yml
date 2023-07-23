@@ -28,7 +28,7 @@ defaults:
 
 jobs:
   # Build job
-  insa-et:
+  build:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.114.0
@@ -63,7 +63,7 @@ jobs:
           path: ./public
 
   # Deployment job
-  gonder:
+  deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
