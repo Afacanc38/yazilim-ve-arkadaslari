@@ -70,6 +70,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: GitHub Pages\'a Uygula
+      - name: GitHub Pages'a gönder
         id: deployment
         uses: actions/deploy-pages@v2
