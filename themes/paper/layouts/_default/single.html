@@ -99,14 +99,16 @@
   </script>
   {{ end }}
 
-  <script src="https://utteranc.es/client.js"
-    repo="afacanc38/yazilim-ve-arkadaslari"
-    issue-term="pathname"
-    label="blog yorumları"
-    theme="github-dark"
-    crossorigin="anonymous"
-    async>
-  </script>
+  {{ if (not (eq .Params.comments false)) }}
+    <script src="https://utteranc.es/client.js"
+      repo="afacanc38/yazilim-ve-arkadaslari"
+      issue-term="pathname"
+      label="blog yorumları"
+      theme="github-dark"
+      crossorigin="anonymous"
+      async>
+    </script>
+  {{ end }}
 </article>
 
 {{ end }}
