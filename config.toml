@@ -1,0 +1,4 @@
+baseURL = 'http://example.org/'
+languageCode = 'tr-tr'
+title = 'Yazılım ve Arkadaşları'
+theme = 'paper'

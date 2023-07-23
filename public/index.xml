@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yazılım ve Arkadaşları</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Yazılım ve Arkadaşları</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr-tr</language>
+    <lastBuildDate>Sun, 23 Jul 2023 22:49:48 +0300</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Merhaba</title>
+      <link>http://example.org/posts/merhaba/</link>
+      <pubDate>Sun, 23 Jul 2023 22:49:48 +0300</pubDate>
+      
+      <guid>http://example.org/posts/merhaba/</guid>
+      <description>Selamlar, hoş geldiniz! Yazılım ve Arkadaşları teknoloji ve kullanıcı arayüzü tasarımı hakkında bir blogtur. Özellikle GNU/Linux üzerinde yoğunlaşmış olsa da bununla sınırlı değiliz. Son olarak, takipte kalın!</description>
+    </item>
+    
+  </channel>
+</rss>
